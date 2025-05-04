@@ -60,7 +60,7 @@ def escrever_saida(caminho_saida, resultados):
 
 def main():
     if len(sys.argv) != 4:
-        print("Uso: python simulador.py automato.aut testes.in saida.out")
+        print("Uso: python Automato.py automato.aut testes.in saida.out")
         return
 
     automato_path, testes_path, saida_path = sys.argv[1], sys.argv[2], sys.argv[3]
